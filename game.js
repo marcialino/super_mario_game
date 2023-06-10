@@ -1,11 +1,12 @@
-kaboom({
-    global: true,
-    fullscreen: true,
-    scale:2,
-    clearcolor:[0,0,0,1]
-})
+let personagem = document.querySelector('#personagem')
+let quadrado = document.querySelector('#quadrado')
 
-loadRoot("https://i.imgur.com/") /*url para puxar as imagens/sprite*/
+function pular(){
+    if(personagem.classList !='animar'){
+        personagem.classList.add('animar')
+    }
 
-loadSprite('bloco', '')
-/*url da imagens: Imagens: https://imgur.com/a/F8Jkryq*/ 
+    setTimeout(function(){
+
+    },500)
+}
